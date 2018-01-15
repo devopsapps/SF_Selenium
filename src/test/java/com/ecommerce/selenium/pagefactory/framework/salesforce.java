@@ -30,7 +30,7 @@ public class salesforce extends Wrapper {
 				}*/
 					   
 				    @Test(priority=1)
-					public void Addtocart() throws Exception {
+					public void Addcontent() throws Exception {
 				    	WebBrowser app;
 				    	app = openSF_Application();
 				    	Thread.sleep(3000);
