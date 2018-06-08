@@ -132,7 +132,7 @@ public class Wrapper implements AppConstants {
     	}
     	try {
 	    	app.getActions().inputText(By.id("username"), "venkat_newt@newtglobal.com");
-	    	app.getActions().inputText(By.id("password"), "newtglobal123");
+	    	app.getActions().inputText(By.id("password"), "Newtglobal2345#");
 	    	System.out.println("Username and possword entered Sucessfully");
     	}catch(Exception e) {
     		System.out.println("Unable to input Username/Password : "+e.getMessage());
